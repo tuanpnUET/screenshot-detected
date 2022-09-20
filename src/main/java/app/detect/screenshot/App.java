@@ -26,7 +26,6 @@ public class App {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\chromedriver.exe");
 		}
 		driver.manage().window().maximize();
-		driver.get("https://go88vn.in/play/");
 		
 		new Timer().scheduleAtFixedRate(new TimerTask(){
             @Override
